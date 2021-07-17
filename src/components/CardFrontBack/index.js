@@ -3,7 +3,7 @@ function CardFrontBack(){
   return /*html*/`
     <article class="card-front-back">
       ${CardGame()}
-      ${CardGame()}
+      ${CardGame("JS", 'Logo do javascript')}
     </article>
   `
 }
