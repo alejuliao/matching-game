@@ -1,6 +1,11 @@
+html,
 body{
+  font-size: 30px;
+}
+body{
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   background-color: var(--color-purple);
   max-width: 320px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto; 
 }
