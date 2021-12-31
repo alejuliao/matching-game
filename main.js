@@ -4,16 +4,15 @@ import './src/styles/elements/base.css'
 import './src/styles/generic/reset.css'
 import './src/styles/settings/colors.css'
 
-
 const $root = document.querySelector('#root')
 
+$root.insertAdjacentHTML(
+  'beforeend',
 
-
-$root.insertAdjacentHTML('beforeend', 
-
-`
+  `
   ${ScoreBoard()}
 
-  ${BoardGame(2)}
+  ${BoardGame(6)}
 
-`)
+`
+)

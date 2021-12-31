@@ -5,6 +5,7 @@
   height: var(--height);
 
   position: relative;
+  cursor:pointer;
 
   transform-style: preserve-3d;
   transition: transform 400ms ease-out;
