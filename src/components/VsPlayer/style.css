@@ -1,3 +1,4 @@
-span {
-  color:yellow
+.vs-player {
+  color:var(--color-sandstorm);
+  font-size: 1.2rem;
 }
